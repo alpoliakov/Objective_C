@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+#import "APCar.h"
+
 @interface APCarWashEnterprise : NSObject
+
++ (void)startWorks;
 
 @end

@@ -7,7 +7,17 @@
 //
 
 #import "APCarWashEnterprise.h"
+#import "APRoom.h"
+#import "APCar.h"
+#import "APWorker.h"
+#import "APBuilding.h"
+#import "APRoomWashing.h"
+#import "APCarWashBuilding.h"
 
 @implementation APCarWashEnterprise
+
++ (void)startWorks {
+
+}
 
 @end

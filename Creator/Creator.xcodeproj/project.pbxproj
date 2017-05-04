@@ -20,6 +20,7 @@
 		06E9F2781EBA67D300955745 /* APCarWashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E9F2771EBA67D300955745 /* APCarWashTests.m */; };
 		06E9F27D1EBA6BEA00955745 /* APRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E9F27C1EBA6BEA00955745 /* APRoom.m */; };
 		06E9F2811EBA6C3900955745 /* APRoomWashing.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E9F2801EBA6C3900955745 /* APRoomWashing.m */; };
+		06E9F2851EBA7CD300955745 /* APCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E9F2841EBA7CD300955745 /* APCar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -61,6 +62,9 @@
 		06E9F27C1EBA6BEA00955745 /* APRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRoom.m; sourceTree = "<group>"; };
 		06E9F27F1EBA6C3900955745 /* APRoomWashing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRoomWashing.h; sourceTree = "<group>"; };
 		06E9F2801EBA6C3900955745 /* APRoomWashing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRoomWashing.m; sourceTree = "<group>"; };
+		06E9F2831EBA7CD300955745 /* APCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCar.h; sourceTree = "<group>"; };
+		06E9F2841EBA7CD300955745 /* APCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APCar.m; sourceTree = "<group>"; };
+		06E9F28B1EBABAC000955745 /* APCashTransfer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APCashTransfer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,11 +154,13 @@
 		06E9F2601EBA644B00955745 /* APCarWash */ = {
 			isa = PBXGroup;
 			children = (
+				06E9F2821EBA7C7900955745 /* APCar */,
 				06E9F27A1EBA6BC400955745 /* APRoom */,
 				06E9F2671EBA65E700955745 /* APCarWashTests */,
 				06E9F2631EBA653E00955745 /* APCarWashEnterprise */,
 				06E9F2621EBA64CE00955745 /* APWorker */,
 				06E9F2611EBA648700955745 /* APBuilding */,
+				06E9F28B1EBABAC000955745 /* APCashTransfer.h */,
 			);
 			path = APCarWash;
 			sourceTree = "<group>";
@@ -234,6 +240,15 @@
 			path = APRoomWashing;
 			sourceTree = "<group>";
 		};
+		06E9F2821EBA7C7900955745 /* APCar */ = {
+			isa = PBXGroup;
+			children = (
+				06E9F2831EBA7CD300955745 /* APCar.h */,
+				06E9F2841EBA7CD300955745 /* APCar.m */,
+			);
+			path = APCar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -301,6 +316,7 @@
 				06E9F2751EBA67A800955745 /* APCarWashEnterprise.m in Sources */,
 				069C7B591EB15F5900584B4B /* APPerson.m in Sources */,
 				06E9F2781EBA67D300955745 /* APCarWashTests.m in Sources */,
+				06E9F2851EBA7CD300955745 /* APCar.m in Sources */,
 				069C7B641EB3C3C800584B4B /* APDriver.m in Sources */,
 				06E9F2811EBA6C3900955745 /* APRoomWashing.m in Sources */,
 				069C7B5C1EB15FFE00584B4B /* APTestPerson.m in Sources */,
