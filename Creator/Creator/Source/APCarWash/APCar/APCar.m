@@ -23,11 +23,17 @@ static const NSUInteger APCash = 1000;
 #pragma mark -
 #pragma mark Initializtions and Deallocations
 
+-(void)dealloc {
+    self.mutableCarsMark = nil;
+    
+    [super dealloc];
+}
+
 - (id)init {
     self = [super init];
     
     self.cash = APCash;
-    self.dirty = TRUE;
+    self.dirty = YES;
     
     return self;
 }

@@ -178,6 +178,8 @@
 		06E9F2621EBA64CE00955745 /* APWorker */ = {
 			isa = PBXGroup;
 			children = (
+				06E9F28D1EBCBC3B00955745 /* APAccountant */,
+				06E9F28C1EBCBC0600955745 /* APBoss */,
 				06E9F26F1EBA66D700955745 /* APWorkerWasher */,
 				06E9F26C1EBA66CB00955745 /* APWorker.h */,
 				06E9F26D1EBA66CB00955745 /* APWorker.m */,
@@ -247,6 +249,20 @@
 				06E9F2841EBA7CD300955745 /* APCar.m */,
 			);
 			path = APCar;
+			sourceTree = "<group>";
+		};
+		06E9F28C1EBCBC0600955745 /* APBoss */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = APBoss;
+			sourceTree = "<group>";
+		};
+		06E9F28D1EBCBC3B00955745 /* APAccountant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = APAccountant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -14,4 +14,10 @@
 @optional
 - (void)receiveCash:(id<APCashTransfer>)object;
 
+@optional
+- (NSUInteger)giveAllCash;
+
+@optional
+- (NSUInteger)giveCash:(NSUInteger)cash;
+
 @end
